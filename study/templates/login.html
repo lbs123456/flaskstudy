@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>登录界面</h1>
+
+ <img src="{{url_for('static',filename = '1.jpeg')}}"/>
+ <img src="{{url_for('static',filename = '1.jpeg')}}"/>
+<form action="/login" method="post">
+    <p>用户名：<input type="text" name="username"> </p>
+    <p>密码：<input type="text" name="password"> </p>
+    <p>密码：<input type="submit" value="登录"> </p>
+    <p>{{msg }}</p>
+</form>
+</body>
+</html>
